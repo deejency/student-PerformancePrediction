@@ -1,5 +1,4 @@
 
-import sklearn
 import streamlit as st
 import pickle
 import numpy as np
@@ -31,4 +30,5 @@ if st.button("Predict"):
     if prediction == 0:
         st.success("Prediction: Fail")
     else:
+
         st.error("Prediction: Passed")
